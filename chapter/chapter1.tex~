@@ -1,0 +1,43 @@
+\chapter{Khái quát về blockchain}\label{ch:1}
+\section{Lịch sử}
+
+Những ý tưởng đầu tiên về chuỗi các block bảo mật nhờ các phương pháp mã hóa được mô tả vào năm 1991 bởi hai nhà khoa học Stuart Haber và W. Scott Stornetta \cite{haber}. Vào năm 1992, Bayer, Haber và Stornetta tích hợp cây Merkle  vào thiết kế, giúp cải thiện tính hiệu quả bằng cách cho phép nhiều văn bản được gom chung vào một block \cite{cryptocurrencytech}.
+
+Khái niệm về blockchain được trình bày lần đầu bởi một người (hoặc nhóm người) có bút danh Satoshi Nakamoto  vào năm 2008. Nó được hiện thực hóa vào năm tiếp theo bởi Nakamoto như một thành phần cốt lõi của đồng tiền ảo bitcoin, nơi blockchain hoạt động như một sổ ghi chép công cộng mọi giao dịch trên hệ thống mạng. Thông qua việc ứng dụng  blockchain, bitcoin trở thành đồng tiền ảo đầu tiên giải quyết được vấn đề trả-tiền-hai-lần mà không cần đến một một bên được ủy quyền
+và là nguồn cảm hứng cho  nhiều ứng dụng khác.
+
+Tháng Tám năm 2014, kích thước file của blockchain bitcoin, chứa ghi chép của tất cả giao dịch diễn ra trên hệ thống mạng, đạt 20 GB. Vào tháng Một năm 2015, kích thước file đã tăng lên đến gần 30 GB, và từ tháng Một 2016 đến tháng 2017, blockchian bitcoin đã tăng từ 50 GB lên 100 GB về kích thước.
+
+Từ \textit{block} và \textit{chain} được sử dụng một cách riêng rẻ trong tài liệu gốc của Satoshi Nakamoto, nhưng dần dần trở nên phổ biến như một từ đơn, \textit{blockchan}, vào năm 2016. Thuật ngữ blockchain 2.0 chỉ những ứng dụng mới của cơ sở dữ liệu blockchain phân tán, nổi lên lần đầu vào năm 2014. Tạp chí \textit{The Economist} mô tả \textit{Ethereum}, một ứng dụng của blockchain có khả năng lập trình thế hệ thứ hai này như sau: "một ngôn ngữ lập trình cho phép người dùng viết ra những hợp đồng thông minh phức tạp hơn, nhờ đó tạo ra những hóa đơn tự trả khi một đơn hàng tới hay tự động chia cổ tức cho cổ đông khi lợi nhuận đạt tới một mức nhất định". Công nghệ Blockchain 2.0 đã vượt ra khỏi khuôn khổ giao dịch và cho phép  "trao đổi giá trị mà không cần tới những bên trung tâm đầy quyền lực hoạt động như những kẻ kiểm soát tiền và thông tin". Chúng được mong đợi sẽ cho phép mọi người tham gia vào nền kinh tế toàn cầu, bảo vệ qyền riêng tư của những người tham gia, cho phép mọi người "kiếm tiền từ thông tin của chính họ" và cung cấp khả năng đảm bảo những người tạo ra nội dung được trả thưởng  cho tài sản trí tuệ họ làm ra. Công nghệ blockchan thế hệ thứ hai cho phép lưu trữ "ID số và diện mạo thay đổi liên tục" của từng cá nhân và cung cấp giải pháp giải quyết vấn đề bất bình đẳng xã hội bằng cách "thay đổi cách thức của cải được phân phối". 
+
+Vào năm 2016, Kho lưu ký chứng khoán trung tâm của Liên bang Nga (NSD) đã công bố một dự án thí điểm, dựa trên nền tảng blockchian 2.0 Nxt nhằm khai thác và đưa vào sử dụng hệ thống bầu cử tự động dựa trên nàng blockchain. IBM đã mở môt trung tâm nghiên cứu đổi mới blockchain tại Singapore vào tháng Bảy năm 2016. Một nhóm làm việc cho Diễn đàn Kinh tế Thế giiới đã gặp nhau vào tháng 11 năm 2016 để thảo luận sự phát triển các mô hình quản trị liên quan đến blockcchain. Theo Accenture, một ứng dụng của lý thuyết khuyến đại cải tiến (Diffusion of innovations), cho rằng blockchain đạt tỉ lệ 13,5\% ứng dụng trong các dịch vụ tài chính năm 2016,. Các nhóm thương mại công nghiệp đã tham gia tạo ra Diễn đàn Blockchain thế giới, một sáng kiến của Phòng Thương mại Số Hoa Kỳ. 
+
+\section{Double Spending: Vấn đề mà blockchain giải quyết}
+Trong suốt chiều dài lịch sử, các loại tiền tệ bằng kim loại hoặc giấy được sử dụng bởi nhiều nền văn minh trên khắp thế giới. Trong các giao dịch được thực hiện với các loại tiền ấy, một bên phải trả một lượng tiền cho bên thứ hai để nhận một lượng hàng hóa hoặc dịch vụ. Khi tiền thực được trao đổi, không có khả năng cùng một món tiền lại được trả bởi cùng một bên hai lần.
+
+Ví dụ, với các loại tiền giấy hoặc kim loại, một người không thể trả một đô la cho một quả táo, và sau đó sử dụng  đúng đồng đô la đó để mua quả cam. Đó là vì  đồng đô la đã được chuyển cho người bán trong quá trình mua bán quả táo. Tuy nhiên, với tiền ảo, không có quá trình chuyển vật lý của tiền, tạo nên cái được goi là vấn đề vấn đề trả tiền hai lần.
+
+vấn đề trả tiền hai lần là khi một người dùng cùng một món tiền cho hai giao dịch hoặc nhiều hơn. Trước khi có Bitcoin, đây là một vấn đề lớn vì nó xóa bỏ đặc trưng giới hạn về số lượng của các loại tiền ảo, vốn là đặc trưng cơ sở để một loại tiền để có thể tồn tại. Nếu mỗi đơn vị tiền có thể được dùng một lượng vô hạn số lần, thì nó sẽ không có giá trị thực nào.
+
+\section{Theo bước Satoshi Nakamoto}
+
+Sau cuộc khủng hoảng tài chính 2008, một nhà tiên phong tên Satoshi Nakamoto đã tìm ra cách giải quyết cho  vấn đề vấn đề trả tiền hai lần và tạo ra một loại tiền ảo không bị vấn đề trả tiền hai lần ảnh hưởng. Cho đến nay, không ai biết được danh tính thật sự của Satoshi. Satoshi Nakamoto chỉ là một bút danh.
+
+Satoshi Nakamoto đã tạo ra một giải pháp độc nhất để ngăn chặn double sending. Giải quyết đó được goi là công nghệ blockchain. Chi tiết của cả Bitcoin và công nghệ blockchain được trình bày trong một sách trắng được phát hành bởi Satoshi Nakamoto vào tháng 11 năm 2008 tên là "Bitcoin: A Peer-to-Peer Electronic Cash System". 
+
+Trong sách trắng này, Nakamoto giải thích tại sao các giao dịch tài chính điện tử lúc đó vẫn phải phụ thuộc vào bên thứ ba được tin cậy (ví dụ như ngân hàng) để giải quyết vấn đề vấn đề trả tiền hai lần, và việc đó có thể được thay đổi với công nghệ blockchain ra sao.
+
+\section{Công nghệ blockchain}
+
+Công nghệ blockchain về cơ bản là một sổ cái công cộng ghi chép mọi giao dịch trên một bản ghi có thể mở rộng. Các giao dịch phải được chứng thực bởi các "thợ đào" để chúng được coi là hợp lệ và được thêm vào blockchain. Các thợ đào nhận được những khuyến khích để thực hiện việc chứng thực - một lượng Bitcoin nhất định cho một lần chứng thực giao dịch thành công.
+
+Với phương thức này, ta không cần tới ngân hàng để ngăn chặn vấn đề trả tiền hai lần và mỗi giao dịch đều được xác minh để đảm bảo rằng không ai xài cùng một lượng Bitcoin quá một lần. Nếu có ai đó tìm cách xài cùng một lượng Bitcoin hai lần bằng cách thực hiện hai giao dịch khác nhau với cùng một đầu vào Bitcoin trên cùng một block, thì hai giao dịch sẽ không bao giờ được xác nhận trên hệ thống mạng. Nhờ đó mà cơ bản biến chúng thành các giao dịch không hợp lệ và chúng sẽ bị "hủy", qua đó ngăn chặn vấn đề trả tiền hai lần.
+
+Các chi tiết về việc làm thế nào mà blockchain có thể ngăn chặn được vấn đề trả tiền hai lần sẽ được trình bày ở các chương sau, liên quan đến cấu trúc dữ liệu của nó và các phương pháp mã hóa được ứng dụng trong công nghệ blockchain.
+
+\section{Các loại blockchain}
+Một blockchain có thể thuộc loai không cần cho phép (permissionless) ,như Bitcoin hoặc Ethereum; hoặc cần cho phép (permissioned). Một blockchain không cần cho phép, còn được gọi là một blockchain công cộng bởi vì bất kỳ ai đều có thể tham gia vào mạng. Một blockchain cần cho phép, hay blockchain riêng tư, yêu cầu có sự xác minh trước của các bên tham gia trong mạng, và các bên này thường đã biết nhau.
+
+Sự lựa chọn giữa blockchain công cộng và riêng tư thường được quyết định bởi các ứng dụng cụ thể cần giải quyết. Một ví dụ mà các doanh nghiệp trao đổi thông tin với nhau là trong quản lý chuỗi cung ứng. Quản lý chuỗi cung ứng là một trường hợp lý tưởng để sử dụng blockchain riêng tư. Ta không muốn các công ty không mời tham gia vào mạng. Mỗi bên tham gia chuỗi cung ứng sẽ được yêu cầu quyền (permission) để thực hiện các giao dịch trong blockchain. Các giao dịch này sẽ cho phép các công ty khác biết một sản phẩm cụ thể đang nằm ở đâu.
+
+Ngược lại, khi một mạng có thể tạo thuận lợi cho các bên giao dịch mà không nhất thiết phải xác minh danh tính của nhau, như blockchain Bitcoin, một blockchain công cộng phù hợp hơn. Một số ví dụ như bán hoặc phân phối sản phẩm trong một cộng đồng. Các loại tiền mã hóa (vốn không được các chính phủ ủng hộ) thường sử dụng blockchain công cộng.

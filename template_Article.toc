@@ -1,0 +1,32 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {vietnamese}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{C\IeC {\'a}c k\IeC {\'\i } hi\IeC {\d \ecircumflex }u vi\IeC {\'\ecircumflex }t t\IeC {\'\abreve }t}{ii}{chapter*.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Danh s\'ach h\`inh v\~e}{ii}{section*.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{L\IeC {\`\ohorn }i gi\IeC {\'\ohorn }i thi\IeC {\d \ecircumflex }u}{1}{chapter*.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Kh\IeC {\'a}i qu\IeC {\'a}t v\IeC {\`\ecircumflex } blockchain}{3}{chapter.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}L\IeC {\d i}ch s\IeC {\h \uhorn }}{3}{section.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}Double Spending: V\IeC {\'\acircumflex }n \IeC {\dj }\IeC {\`\ecircumflex } m\IeC {\`a} blockchain gi\IeC {\h a}i quy\IeC {\'\ecircumflex }t}{4}{section.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.3}Theo b\IeC {\uhorn }\IeC {\'\ohorn }c Satoshi Nakamoto}{5}{section.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.4}C\IeC {\^o}ng ngh\IeC {\d \ecircumflex } blockchain}{5}{section.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.5}C\IeC {\'a}c lo\IeC {\d a}i blockchain}{6}{section.1.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}C\IeC {\'a}ch th\IeC {\'\uhorn }c ho\IeC {\d a}t \IeC {\dj }\IeC {\d \ocircumflex }ng c\IeC {\h u}a blockchain}{7}{chapter.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}M\IeC {\d \acircumflex }t m\IeC {\~a} trong blockchain}{7}{section.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Ch\IeC {\~\uhorn } k\IeC {\'\i } s\IeC {\'\ocircumflex }}{9}{section.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.1}\IeC {\DJ }a ch\IeC {\~\uhorn } k\IeC {\'\i }}{11}{subsection.2.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}N\IeC {\'u}t}{12}{section.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.1}Kh\IeC {\'a}i ni\IeC {\d \ecircumflex }m v\IeC {\`\ecircumflex } n\IeC {\'u}t}{12}{subsection.2.3.1}

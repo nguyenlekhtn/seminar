@@ -1,0 +1,17 @@
+# Fdb version 3
+["latex"] 1527515196 "chapter2.tex" "chapter2.dvi" "chapter2" 1527515196
+  "/usr/share/texmf-dist/web2c/texmf.cnf" 1520157258 32585 d82bbcf7626b7842c87671687479e852 ""
+  "/var/lib/texmf/web2c/pdftex/latex.fmt" 1524414565 7738063 4b89e53a02121d561f2f44cf7224da02 ""
+  "chapter2.aux" 1527515173 3404 c340075e9966317258ef8e5ce46cbc29 ""
+  "chapter2.tex" 1527515195 16124 8ceee83b5fb53fcb75a5df9bac76dd62 ""
+  (generated)
+  "chapter2.dvi"
+  "chapter2.log"
+["pdflatex"] 1527776667 "chapter2.tex" "chapter2.pdf" "chapter2" 1527776667
+  "/usr/share/texmf-dist/web2c/texmf.cnf" 1520157258 32585 d82bbcf7626b7842c87671687479e852 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1524414563 7738161 ee80e24a8843a5288fd009da43d88f5f ""
+  "chapter2.aux" 1527776451 9051 26ea6286d608acc550d7f45efe641a91 ""
+  "chapter2.tex" 1527776666 23447 9f5daf009f2bf4a995ffc71e98297db1 ""
+  (generated)
+  "chapter2.log"
+  "chapter2.pdf"
